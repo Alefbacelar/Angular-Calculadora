@@ -1,3 +1,4 @@
+import { CalculadoraModule } from './pages/calculadora/calculadora.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CalculadoraModule
   ],
   providers: [],
   bootstrap: [AppComponent]
